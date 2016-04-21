@@ -5,7 +5,7 @@ SetDynaLoadData("l1z1.p3d;l1r1.p3d;l1r7.p3d;")
 SetAnimatedCameraName( "cameraShape1" )
 SetAnimCamMulticontName( "MasterController" )
 
-UsePedGroup( 0 ) 
+UsePedGroup( 0 )
 
 AddStage(0)
 	RESET_TO_HERE()
@@ -41,7 +41,7 @@ CloseStage()
 
 AddStage(3)
 	SetHUDIcon ( "school" )
-	SetStageTime(120)
+	SetStageTime(75)
 	AddObjective( "goto" )
 		SetDestination("SpringfieldElementary", "carsphere")
 	CloseObjective()
